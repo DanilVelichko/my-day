@@ -15,6 +15,8 @@ import { authReducer } from './auth/authSlice';
 import globalSlice from './global/globalSlice';
 import categoriesSlice from './categories/categoriesSlice';
 import summarySlice from './summary/summarySlice';
+import { contactsSlice } from './contacts/sliceContacts';
+import { filterSlice } from './filter/sliceFilter';
 
 const middleware = [
   ...getDefaultMiddleware({
@@ -37,6 +39,9 @@ export const store = configureStore({
     global: globalSlice,
     categories: categoriesSlice,
     summary: summarySlice,
+    contacts: contactsSlice.reducer,
+    filter: filterSlice.reducer,
+    
   },
   middleware,
   devTools: process.env.NODE_ENV === 'development',

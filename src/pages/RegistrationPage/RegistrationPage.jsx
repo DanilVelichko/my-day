@@ -26,7 +26,7 @@ export const RegistrationPage = () => {
             />
             <img src={regDesk1X} width="435" alt="Example of financial app" />
           </picture>
-          <ImageTitle>Finance App</ImageTitle>
+          <ImageTitle>My Day App</ImageTitle>
         </RegistrationImage>
       )}
       <RegistrationForm />

@@ -94,21 +94,21 @@ export const Table = ({ data, handlePeriod }) => {
 };
 
 
-Table.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
-    expenseSummary: PropTypes.number.isRequired,
-    incomeSummary: PropTypes.number.isRequired,
-    month: PropTypes.number.isRequired,
-    year: PropTypes.number.isRequired,
-    periodTotal: PropTypes.number.isRequired,
-    categoriesSummary: PropTypes.arrayOf(
-      PropTypes.shape({
-        name: PropTypes.string.isRequired,
-        total: PropTypes.number.isRequired,
-        color: PropTypes.string.isRequired,
-        type: PropTypes.string.isRequired,
-      })
-    ).isRequired,
-  })).isRequired,
-  handlePeriod: PropTypes.func.isRequired,
-};
+// Table.propTypes = {
+//   data: PropTypes.arrayOf(PropTypes.shape({
+//     expenseSummary: PropTypes.number.isRequired,
+//     incomeSummary: PropTypes.number.isRequired,
+//     month: PropTypes.number.isRequired,
+//     year: PropTypes.number.isRequired,
+//     periodTotal: PropTypes.number.isRequired,
+//     categoriesSummary: PropTypes.arrayOf(
+//       PropTypes.shape({
+//         name: PropTypes.string.isRequired,
+//         total: PropTypes.number.isRequired,
+//         color: PropTypes.string.isRequired,
+//         type: PropTypes.string.isRequired,
+//       })
+//     ).isRequired,
+//   })).isRequired,
+//   handlePeriod: PropTypes.func.isRequired,
+// };

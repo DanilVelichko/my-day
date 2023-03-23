@@ -26,7 +26,7 @@ export const LoginPage = () => {
             />
             <img src={logDesk1X} width="435" alt="Example of financial app" />
           </picture>
-          <ImageTitle>Finance App</ImageTitle>
+          <ImageTitle>My Daily App</ImageTitle>
         </LogInImage>
       )}
       <LoginForm />

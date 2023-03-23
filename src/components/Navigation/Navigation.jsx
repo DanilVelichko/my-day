@@ -11,28 +11,49 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-home`}></use>
           </Icon>
-          <Text>Home</Text>
+          <Text>my~Finaces</Text>
         </Link>
       </Item>
-
       <Item>
         <Link to="diagram">
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>Statistics</Text>
+          <Text>my~Statistics</Text>
         </Link>
       </Item>
-
-      {!isTablet && (
-        <Item>
-          <Link to="/currency">
-            <Icon>
-              <use href={`${Icons}#icon-currency-icon`}></use>
-            </Icon>
-          </Link>
-        </Item>
-      )}
+      <Item>
+        <Link to="todo">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>my~Tasks</Text>
+        </Link>
+      </Item>
+      <Item>
+        <Link to="contacts">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>my~Contacts</Text>
+        </Link>
+      </Item>
+      <Item>
+        <Link to="cinema">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>my~Cinema</Text>
+        </Link>
+      </Item>
+      <Item>
+        <Link to="photo-search">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>my~Fotobank</Text>
+        </Link>
+      </Item>
     </List>
   );
-}
+};

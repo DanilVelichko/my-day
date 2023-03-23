@@ -8,7 +8,7 @@ export const Logo = () => {
           <use href={`${Icons}#icon-logo`}></use>
       </Icon>
       <Text>
-        Wallet
+        my~Day
       </Text>
     </Container>
   );

@@ -1,6 +1,6 @@
 {
-  "name": "e-wallet",
-  "version": "0.1.0",
+  "name": "my-day",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://DanilVelichko.github.io/my-day/",
   "dependencies": {
@@ -30,10 +30,13 @@
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
     "react-toastify": "^9.1.1",
     "react-use": "^17.4.0",
     "redux-persist": "^6.0.0",
     "styled-components": "^5.3.6",
+    "svgo": "^3.0.2",
+    "uuid": "^7.0.3",
     "web-vitals": "^2.1.3",
     "yup": "^1.0.0"
   },
