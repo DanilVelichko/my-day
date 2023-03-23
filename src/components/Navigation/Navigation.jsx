@@ -39,11 +39,11 @@ export const Navigation = () => {
         </Link>
       </Item>
       <Item>
-        <Link to="cinema">
+        <Link to="movies">
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Cinema</Text>
+          <Text>my~Movies</Text>
         </Link>
       </Item>
       <Item>

@@ -1,0 +1,9 @@
+.image {
+    height: 150px;
+}
+
+.item {
+    display: flex;
+    gap:10px;
+    margin-bottom: 10px;
+}

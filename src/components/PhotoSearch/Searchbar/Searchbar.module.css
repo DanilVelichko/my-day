@@ -3,8 +3,8 @@
  * Стили компонента Searchbar
  */
 .searchbar {
-  width: 100%;
-  max-width: fit-content;
+  /* width: 600px; */
+  /* max-width: fit-content; */
   height: 20px;
   top: 0;
   left: 0;
@@ -29,9 +29,11 @@
  */
 .searchform {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  width: 100%;
-  max-width: 600px;
+  /* width: 100%; */
+  /* max-width: 600px; */
   background-color: #fff;
   border-radius: 3px;
   overflow: hidden;

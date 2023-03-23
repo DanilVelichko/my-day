@@ -1,0 +1,26 @@
+.box {
+margin-left: 20px;
+margin-top: 20px;
+}
+.title {
+    margin-bottom: 5px;
+}
+
+.list {
+margin-left: 10px;
+
+}
+
+.item {
+    padding: 5px;
+    
+
+}
+
+.link {
+    color: black;
+}
+.link:hover {
+    font-weight: bold;
+    color: orange;
+}

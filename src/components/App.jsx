@@ -14,6 +14,7 @@ import { DashboardPage } from 'pages/DashboardPage/DashboardPage';
 import ToDoPage from 'pages/ToDoPage/ToDoPage';
 import Phonebook from 'pages/Phonebook/Phonebook';
 import PhotoSearch from 'pages/PhotoSearch/PhotoSearch';
+import MoviesPage from 'pages/Movies/MoviesPage';
 
 const HomePage = lazy(() => import('pages/HomePage/HomePage'));
 const SummaryPage = lazy(() => import('pages/SummaryPage/SummaryPage'));
@@ -45,6 +46,7 @@ const App = () => {
         <Route path="diagram" element={<SummaryPage />} />
         <Route path="todo" element={<ToDoPage />} />
           <Route path="contacts" element={<Phonebook />} />
+          <Route path="movies" element={<MoviesPage />} />
           <Route path="photo-search" element={<PhotoSearch />} />
         {!isTablet && <Route path="currency" element={<Currency />} />}
       </Route>

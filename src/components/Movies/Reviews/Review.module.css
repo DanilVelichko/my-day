@@ -1,0 +1,12 @@
+.item {
+    margin-bottom: 15px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.url {
+    padding: 5px;
+    font-size: 16px;
+}

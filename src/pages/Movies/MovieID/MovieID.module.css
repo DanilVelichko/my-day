@@ -1,0 +1,104 @@
+.hero_box {
+  display: flex;
+}
+
+.hero_info {
+  margin-left: 20px;
+}
+
+.image {
+  height: 300px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.score {
+  margin-bottom: 30px;
+}
+
+.overview {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.overview_text {
+  padding-bottom: 5px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.genres_title {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.line {
+  height: 0px;
+  width: 100%;
+  border: 1px solid rgb(195, 124, 124);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.additional_box {
+  margin-left: 20px;
+}
+.additional_title {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.additional_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional_item {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding: 4px;
+}
+.additional_item:hover {
+  color: orangered;
+}
+.back_button {
+  height: 30px;
+  margin-left: 10px;
+  color: aliceblue;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+.back_button:hover {
+  background-color: orangered;
+  color: white;
+}
+
+
+.skeleton_title {
+  margin-top: 20px;
+  height: 36px;
+  margin-bottom: 15px;
+}
+
+.skeleton_score {
+  margin-bottom: 30px;
+  height: 20px;
+  width: 50px;
+}
+
+.skeleton_overview {
+  padding-bottom: 5px;
+  width: 800px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.skeleton_genres {
+  padding-bottom: 5px;
+  height: 20px;
+  width: 50px;
+}
