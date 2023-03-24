@@ -22,7 +22,7 @@ const MovieList = () => {
 
   return (
     <div className={css.box}>
-      <h2 className={css.title}>Trending today</h2>
+      {/* <h2 className={css.title}>Trending today</h2> */}
       
       {isLoading ? (
         <Skeleton className={css.skeleton} count={20} baseColor={'#e5e5e5'} width={220} height={20} />
@@ -30,7 +30,7 @@ const MovieList = () => {
         <ul className={css.list}>
           {movieDailyTrends.map(({ title, id }) => (
             <li className={css.item} key={id}>
-              <Link className={css.link} to={`/movies/${id}`}>
+              <Link className={css.link} to={`/movies/movies/${id}`}>
                 {title}
               </Link>
             </li>

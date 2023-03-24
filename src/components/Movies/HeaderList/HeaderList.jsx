@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from './HeaderList.styled';
 
 const navItems = [
-  { href: '/', text: 'Home' },
-  { href: 'movies', text: 'Movies' },
+  { href: '', text: 'Trending today' },
+  { href: 'movies', text: 'Search movies' },
 ];
 
 const HeaderList = () => {

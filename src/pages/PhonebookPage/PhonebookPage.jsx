@@ -2,16 +2,17 @@ import { useMemo } from 'react';
 import { Suspense, lazy } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 // Components
-import Form from 'components/Form/Form';
-import Filter from 'components/Filter/Filter';
+import Form from 'components/ContactComponents/Form/Form';
+import Filter from 'components/ContactComponents/Filter/Filter';
 // Redux
 import { addFilter } from 'redux/filter/sliceFilter';
 import { addContacts, deleteContact } from 'redux/contacts/operationsContacts';
 import { selectContacts, selectFilter } from 'redux/selectors';
 // Services
 import { Container } from 'components/App.styled';
+import  css  from './PhonebookPage.module.css';
 
-const ContactsList = lazy(() => import('components/ContactsList/ContactsList'));
+const ContactsList = lazy(() => import('components/ContactComponents/ContactsList/ContactsList'));
 
 const Phonebook = () => {
   const dispatch = useDispatch();
@@ -50,6 +51,8 @@ const Phonebook = () => {
 
   return (
     <Container>
+        <h2 className={css.title}>My Contacts</h2>
+      <div className={css.box}>
       <Form clickSubmit={formSubmitHandler} />
 
       <Filter onDataUpdate={handleDataUpdate} />
@@ -59,7 +62,8 @@ const Phonebook = () => {
           arrContacts={filteredContacts}
           onDeleteBtn={onDeleteBtn}
         />
-      </Suspense>
+        </Suspense>
+        </div>
     </Container>
   );
 };

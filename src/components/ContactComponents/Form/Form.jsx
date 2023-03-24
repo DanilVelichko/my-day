@@ -35,8 +35,8 @@ const Form = ({ clickSubmit }) => {
   };
 
   return (
-    <>
-      <h2>Phonebook</h2>
+    <div className={css.box}>
+      <h2 className={css.contacts_title}>Add new contact</h2>
       <form onSubmit={handleSubmit}>
         <h3>Name</h3>
         <label>
@@ -47,7 +47,7 @@ const Form = ({ clickSubmit }) => {
             name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-            placeholder="Taras Shevchenko"
+            placeholder="John Wick"
             required
           />
         </label>
@@ -61,7 +61,7 @@ const Form = ({ clickSubmit }) => {
             name="number"
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-            placeholder="+38-12345678"
+            placeholder="+1-000-12345678"
             required
           />
         </label>
@@ -70,7 +70,7 @@ const Form = ({ clickSubmit }) => {
           Add contact
         </button>
       </form>
-    </>
+    </div>
   );
 };
 

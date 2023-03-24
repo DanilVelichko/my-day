@@ -62,7 +62,7 @@ const Movies = () => {
         {movieName.length > 0 && (
           <MovieSearchList value={movieName} searchPath={location} />
         )}
-        {noFindFilms && <h5>No Films found</h5>}
+        {noFindFilms && <h4>No Films found</h4>}
       </Suspense>
     </>
   );

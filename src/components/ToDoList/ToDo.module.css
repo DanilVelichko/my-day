@@ -1,2 +1,117 @@
 
-    
+.box {
+  width: 650px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.title_todo {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.todoList {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #333;
+}
+
+.todo_button:hover {
+  background-color: #555;
+}
+
+.todo_button:first-child {
+  background-color: #4caf50;
+}
+
+.todo_button:first-child:hover {
+  background-color: #66bb6a;
+}
+
+.editingTodo {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.editingTodo .form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.input_editingTodo {
+  /* margin-right: 10px; */
+  /* padding: 5px; */
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.editingTodo .form .button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.editingTodo .form .button:hover {
+  background-color: #66bb6a;
+}
+
+.input_text {
+  width: 80%;
+    /* margin-bottom: 5px; */
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button_submit {
+  /* height: 30px; */
+  padding: 5px 10px;
+  /* margin-bottom: 20px; */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.button_submit:hover {
+  background-color: #66bb6a;
+}

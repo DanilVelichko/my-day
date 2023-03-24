@@ -11,7 +11,7 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-home`}></use>
           </Icon>
-          <Text>my~Finaces</Text>
+          <Text>Finaces</Text>
         </Link>
       </Item>
       <Item>
@@ -19,7 +19,7 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Statistics</Text>
+          <Text>Statistics</Text>
         </Link>
       </Item>
       <Item>
@@ -27,7 +27,7 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Tasks</Text>
+          <Text>Tasks</Text>
         </Link>
       </Item>
       <Item>
@@ -35,7 +35,7 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Contacts</Text>
+          <Text>Contacts</Text>
         </Link>
       </Item>
       <Item>
@@ -43,7 +43,7 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Movies</Text>
+          <Text>Movies</Text>
         </Link>
       </Item>
       <Item>
@@ -51,7 +51,31 @@ export const Navigation = () => {
           <Icon>
             <use href={`${Icons}#icon-statistics`}></use>
           </Icon>
-          <Text>my~Fotobank</Text>
+          <Text>Fotobank</Text>
+        </Link>
+      </Item>
+      <Item>
+        <Link to="calculator">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>Calculator</Text>
+        </Link>
+      </Item>
+      <Item>
+        <Link to="weather">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>Weather</Text>
+        </Link>
+      </Item>
+        <Item>
+        <Link to="calendar">
+          <Icon>
+            <use href={`${Icons}#icon-statistics`}></use>
+          </Icon>
+          <Text>Calendar</Text>
         </Link>
       </Item>
     </List>

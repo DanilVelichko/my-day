@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import css from './ContactsList.module.css';
-import ContactsItem from 'components/ContactsItem/ContactsItem';
+import ContactsItem from 'components/ContactComponents/ContactsItem/ContactsItem';
 import { selectError, selectIsLoading } from 'redux/selectors';
 import { useSelector } from 'react-redux';
 

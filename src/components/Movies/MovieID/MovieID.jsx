@@ -32,7 +32,7 @@ const MovieID = () => {
 
   return (
     <>
-      <Link to={`${path}${search}` || '/'} state={search}>
+      <Link to={`${path}${search}` || '/movies'} state={search}>
         <button className={css.back_button}>Back</button>
       </Link>
 
