@@ -1,4 +1,6 @@
 .calculator {
+  margin-top: 15px;
+  margin-left: 15px;
   display: inline-block;
   background-color: #272727;
   border-radius: 10px;
@@ -6,7 +8,7 @@
   padding: 10px;
 }
 
-.display {
+.display-calculator {
   background-color: #1c1c1c;
   color: white;
   font-size: 2rem;
@@ -16,7 +18,7 @@
   text-align: right;
 }
 
-.input {
+.input-calculator {
   display: block;
   width: 100%;
   padding: 10px;
@@ -35,7 +37,7 @@
   margin-bottom: 10px;
 }
 
-.button {
+.button-calculator {
   width: 75px;
   height: 75px;
   background-color: #4d4d4d;
@@ -52,6 +54,7 @@
 }
 
 .clear {
+  font-size: 1.5em;
   background-color: #d9534f;
 }
 

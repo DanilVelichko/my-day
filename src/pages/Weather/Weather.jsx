@@ -4,7 +4,7 @@ import './WeatherWidget.css';
 const WeatherWidget = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [location, setLocation] = useState(''); // User-input location
+  const [location, setLocation] = useState(''); 
 
   // Fetch weather data from OpenWeatherMap API
   useEffect(() => {
@@ -32,7 +32,7 @@ const WeatherWidget = () => {
   }
 
   // Render weather data
-  return (<>  <form onSubmit={handleLocationChange} className="form">
+  return (<>  <form onSubmit={handleLocationChange} className="form-weather">
         
         <Input
           type="text"
@@ -41,8 +41,8 @@ const WeatherWidget = () => {
           autoFocus
         />
 
-        <button type="submit" className="button">
-          <span>Search</span>
+        <button type="submit" className="button-weather">
+          <span className='search-button-text'>Search</span>
         </button>
       </form>
     <div className="weather-widget">
@@ -60,16 +60,16 @@ const WeatherWidget = () => {
           {weatherData.main && (
             <>
               <div className="temperature">
-                {weatherData.main.temp}°C
+                {weatherData.main.temp.toFixed(0)}°C
               </div>
               <div className="feels-like">
-                Feels like {weatherData.main.feels_like}°C
+                Feels like {weatherData.main.feels_like.toFixed(0)}°C
               </div>
               <div className="humidity">
                 Humidity: {weatherData.main.humidity}%
               </div>
               <div className="wind">
-                Wind: {weatherData.wind.speed} m/s
+                Wind: {weatherData.wind.speed.toFixed(1)} m/s
               </div>
             </>
           )}

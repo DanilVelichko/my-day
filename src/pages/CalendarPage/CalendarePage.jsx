@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import "./Calendar.css"; // import your custom CSS file
-
+import "./Calendar.css"
 function Calendar() {
   const [selectedDate, setSelectedDate] = useState(new Date());
 
   function renderCalendar() {
-    const monthDays = []; // create an array to hold the calendar days
+    const monthDays = []; 
     const monthStart = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), 1);
     const monthEnd = new Date(selectedDate.getFullYear(), selectedDate.getMonth() + 1, 0);
     const startDate = new Date(monthStart);

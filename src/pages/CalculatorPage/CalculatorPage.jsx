@@ -22,7 +22,7 @@ function CalculatorPage() {
 
   return (
     <div className="calculator-page">
-      <h1>Calculator</h1>
+      {/* <h1>Calculator</h1> */}
       <Calculator
         input={input}
         handleInput={handleInput}
